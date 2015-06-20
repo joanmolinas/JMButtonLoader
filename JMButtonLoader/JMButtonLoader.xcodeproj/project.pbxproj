@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE4CC6B91B3221990030C1C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4CC6B81B3221990030C1C2 /* AppDelegate.swift */; };
+		BE4CC6BB1B3221990030C1C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4CC6BA1B3221990030C1C2 /* ViewController.swift */; };
+		BE4CC6BE1B3221990030C1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4CC6BC1B3221990030C1C2 /* Main.storyboard */; };
+		BE4CC6C01B3221990030C1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4CC6BF1B3221990030C1C2 /* Assets.xcassets */; };
+		BE4CC6C31B3221990030C1C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4CC6C11B3221990030C1C2 /* LaunchScreen.storyboard */; };
+		BE4CC6CB1B3221CB0030C1C2 /* JMButtonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4CC6CA1B3221CB0030C1C2 /* JMButtonLoader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE4CC6B51B3221990030C1C2 /* JMButtonLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMButtonLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4CC6B81B3221990030C1C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE4CC6BA1B3221990030C1C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE4CC6BD1B3221990030C1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE4CC6BF1B3221990030C1C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE4CC6C21B3221990030C1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE4CC6C41B3221990030C1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4CC6CA1B3221CB0030C1C2 /* JMButtonLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMButtonLoader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE4CC6B21B3221990030C1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE4CC6AC1B3221990030C1C2 = {
+			isa = PBXGroup;
+			children = (
+				BE4CC6B71B3221990030C1C2 /* JMButtonLoader */,
+				BE4CC6B61B3221990030C1C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE4CC6B61B3221990030C1C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE4CC6B51B3221990030C1C2 /* JMButtonLoader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE4CC6B71B3221990030C1C2 /* JMButtonLoader */ = {
+			isa = PBXGroup;
+			children = (
+				BE4CC6B81B3221990030C1C2 /* AppDelegate.swift */,
+				BE4CC6BA1B3221990030C1C2 /* ViewController.swift */,
+				BE4CC6BC1B3221990030C1C2 /* Main.storyboard */,
+				BE4CC6CA1B3221CB0030C1C2 /* JMButtonLoader.swift */,
+				BE4CC6BF1B3221990030C1C2 /* Assets.xcassets */,
+				BE4CC6C11B3221990030C1C2 /* LaunchScreen.storyboard */,
+				BE4CC6C41B3221990030C1C2 /* Info.plist */,
+			);
+			path = JMButtonLoader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE4CC6B41B3221990030C1C2 /* JMButtonLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4CC6C71B3221990030C1C2 /* Build configuration list for PBXNativeTarget "JMButtonLoader" */;
+			buildPhases = (
+				BE4CC6B11B3221990030C1C2 /* Sources */,
+				BE4CC6B21B3221990030C1C2 /* Frameworks */,
+				BE4CC6B31B3221990030C1C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMButtonLoader;
+			productName = JMButtonLoader;
+			productReference = BE4CC6B51B3221990030C1C2 /* JMButtonLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE4CC6AD1B3221990030C1C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Joan;
+				TargetAttributes = {
+					BE4CC6B41B3221990030C1C2 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = BE4CC6B01B3221990030C1C2 /* Build configuration list for PBXProject "JMButtonLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE4CC6AC1B3221990030C1C2;
+			productRefGroup = BE4CC6B61B3221990030C1C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE4CC6B41B3221990030C1C2 /* JMButtonLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE4CC6B31B3221990030C1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4CC6C31B3221990030C1C2 /* LaunchScreen.storyboard in Resources */,
+				BE4CC6C01B3221990030C1C2 /* Assets.xcassets in Resources */,
+				BE4CC6BE1B3221990030C1C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE4CC6B11B3221990030C1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4CC6CB1B3221CB0030C1C2 /* JMButtonLoader.swift in Sources */,
+				BE4CC6BB1B3221990030C1C2 /* ViewController.swift in Sources */,
+				BE4CC6B91B3221990030C1C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE4CC6BC1B3221990030C1C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE4CC6BD1B3221990030C1C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE4CC6C11B3221990030C1C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE4CC6C21B3221990030C1C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE4CC6C51B3221990030C1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE4CC6C61B3221990030C1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE4CC6C81B3221990030C1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JMButtonLoader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ulidev.JMButtonLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE4CC6C91B3221990030C1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JMButtonLoader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ulidev.JMButtonLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE4CC6B01B3221990030C1C2 /* Build configuration list for PBXProject "JMButtonLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4CC6C51B3221990030C1C2 /* Debug */,
+				BE4CC6C61B3221990030C1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4CC6C71B3221990030C1C2 /* Build configuration list for PBXNativeTarget "JMButtonLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4CC6C81B3221990030C1C2 /* Debug */,
+				BE4CC6C91B3221990030C1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE4CC6AD1B3221990030C1C2 /* Project object */;
+}
